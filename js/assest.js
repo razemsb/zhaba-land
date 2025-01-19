@@ -67,3 +67,23 @@ document.querySelector("#toggle-plans").addEventListener("click", function () {
     plansContainer.classList.add("show");
   }
 });
+var logFile = "log.txt";
+var log = function (message) {
+  var today = new Date();
+  var date = today.getDate() + "." + (today.getMonth()+1) + "." + today.getFullYear();
+  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  var logMessage = date + " " + time + " " + message + "\n";
+  var fs = require('fs');
+  fs.appendFile(logFile, logMessage, function (err) {
+    if (err) {
+      console.log(err);
+    }
+  });
+};
+log("Start logging");
+var ip = require('ip');
+log("IP: " + ip.address());
+var useragent = require('useragent');
+var ua = useragent.parse(navigator.userAgent);
+log("User agent: " + ua.toString());
+log("End logging");
