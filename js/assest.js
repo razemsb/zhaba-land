@@ -1,6 +1,8 @@
 window.addEventListener('load', () => {
   const loadingOverlay = document.getElementById('loading-overlay');
-  loadingOverlay.style.display = 'none';
+  setTimeout(() => {
+    loadingOverlay.style.display = 'none';
+  }, 100);
 });
 document.addEventListener("DOMContentLoaded", () => {
     const miniHeader = document.getElementById("mini-header");
