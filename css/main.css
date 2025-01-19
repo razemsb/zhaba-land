@@ -134,19 +134,19 @@ header {
 }
 @keyframes changeBackground {
     0% {
-        background-image: url('../image/karousel-1.jpg');
+        background-image: url('../image/karousel-1.webp');
     }
     25% {
-        background-image: url('../image/karousel-2.jpg');
+        background-image: url('../image/karousel-2.webp');
     }
     50% {
-        background-image: url('../image/karousel-3.jpg');
+        background-image: url('../image/karousel-3.webp');
     }
     75% {
-        background-image: url('../image/karousel-2.jpg');
+        background-image: url('../image/karousel-2.webp');
     }
     100% {
-        background-image: url('../image/karousel-1.jpg');
+        background-image: url('../image/karousel-1.webp');
     }
 }
 header .overlay {
