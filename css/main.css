@@ -41,7 +41,26 @@ svg {
   .cls-3 {
     fill: #8691c8;
   }
-
+  .cls-animate {
+    stroke: #fff;
+    stroke-width: 0.5px;
+    fill: #8691c8;
+    animation: animate-house 6s ease-in-out infinite;
+  }
+  @keyframes animate-house {
+    0% {
+      fill: #8691c8;
+      fill-opacity: 50%;
+    }
+    50% {
+      fill: #add19a;
+      fill-opacity: 50%;
+    }
+    100% {
+      fill: #8691c8;
+      fill-opacity: 50%;
+    }
+  }
   .cls-4 {
     fill: #9786bd;
   }
