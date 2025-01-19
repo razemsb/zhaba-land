@@ -1,21 +1,17 @@
-window.addEventListener('load', () => {
-    const loadingOverlay = document.getElementById('loading-overlay');
-    loadingOverlay.style.display = 'none';
-  });
-  document.addEventListener("DOMContentLoaded", () => {
-      const miniHeader = document.getElementById("mini-header");
-      let lastScrollY = window.scrollY;
-      window.addEventListener("scroll", () => {
-        const currentScrollY = window.scrollY;
-        if (currentScrollY > 100 && currentScrollY > lastScrollY) {
-          miniHeader.classList.add("visible");
-        } else if (currentScrollY < 100 || currentScrollY < lastScrollY) {
-          miniHeader.classList.remove("visible");
-        }
-    
-        lastScrollY = currentScrollY;
-      });
-    });  
+document.addEventListener("DOMContentLoaded", () => {
+    const miniHeader = document.getElementById("mini-header");
+    let lastScrollY = window.scrollY;
+    window.addEventListener("scroll", () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > 100 && currentScrollY > lastScrollY) {
+        miniHeader.classList.add("visible");
+      } else if (currentScrollY < 100 || currentScrollY < lastScrollY) {
+        miniHeader.classList.remove("visible");
+      }
+  
+      lastScrollY = currentScrollY;
+    });
+  });  
   var paths = document.querySelectorAll("path");
   var data = [
     {
