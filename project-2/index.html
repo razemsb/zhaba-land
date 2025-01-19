@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/assest-valley.js" defer></script>
+    <link rel="preload" href="../image/school.jpg" as="image">
+    <link rel="preload" href="../image/kindergarten.jpg" as="image">
+    <link rel="preload" href="../image/forest.jpg" as="image">
+    <link rel="preload" href="../image/parking.jpg" as="image">
+    <link rel="preload" href="../image/beach.jpg" as="image">
+    <link rel="preload" href="../image/sport-zone.jpg" as="image">
+    <link rel="preload" href="../image/house.jpg" as="image">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="shortcut icon" href="image/house.svg" type="image/svg+xml">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <title>Valley 1C, residential complex</title>
+</head>
+<body>
+<div id="mini-header" class="mini-header">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="#home" class="text-white text-decoration-none fw-bold">ЖК "Zhaba-Land"</a>
+      <nav>
+        <a href="#about" class="text-white mx-2">О нас</a>
+        <a href="#popular-plans-title" class="text-white mx-2">Популярные планировки</a>
+        <a href="#contact" class="text-white mx-2">Контакты</a>
+        <a href="../index.html" class="text-white mx-2">Назад</a>
+      </nav>
+    </div>
+</div>
+<header class="container-fluid bg-dark text-white text-center py-5 position-relative" id="home">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4 fw-bold mb-4 text-uppercase">
+            Добро пожаловать в ЖК <br>"Valley 1C"
+          </h1>
+          <p class="lead text-light mb-5">
+            Комфортная жизнь в окружении природы и современных удобств
+          </p>
+          <button type="button" class="d-flex btn btn-outline-light ms-auto me-auto mt-2 mb-5" data-bs-toggle="modal" data-bs-target="#mapModal">
+            Изучить ЖК "Valley 1C"
+         </button>
+        </div>
+      </div>
+    </div>
+</header>
+<main class="container my-5" id="main">
+    <section class="text-center mb-5 mt-4" id="about">
+      <h1 class="display-4 fw-bold">ЖК "Valley 1C"</h1>
+      <p class="lead text-muted">
+        Новый уровень комфорта в жилом комплексе "Valley 1C". Ближе к природе, ближе к вам.
+      </p>
+    </section>
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6 order-md-2">
+        <img src="../image/house-Valley.jpg" alt="Современные дома ЖК" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Современные дома</h2>
+        <p class="text-muted">
+          Дома, построенные с использованием экологически чистых материалов, обеспечивают тепло и уют для всей семьи.
+        </p>
+        <hr>
+      </div>
+    </section>
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="../image/sport-zone.jpg" alt="Детская площадка" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Безопасные детские площадки</h2>
+        <p class="text-muted">
+          Просторные и современные площадки для игр и развития детей прямо рядом с вашим домом.
+        </p>
+        <hr>
+      </div>
+    </section>
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6 order-md-2">
+        <img src="../image/fitness.jpg" alt="Фитнес-зал" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Фитнес-центр</h2>
+        <p class="text-muted">
+          Оборудованный фитнес-центр с тренажерами для всех уровней подготовки — забота о здоровье и красоте.
+        </p>
+        <hr>
+      </div>
+    </section>
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="../image/forest.jpg" alt="Эко-зона" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Эко-зона</h2>
+        <p class="text-muted">
+          Просторные зоны для отдыха и прогулок с зелеными насаждениями и местами для пикника.
+        </p>
+        <hr>
+      </div>
+    </section>
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6 order-md-2">
+        <img src="../image/lake.jpg" alt="Озеро рядом с ЖК" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Озеро для отдыха</h2>
+        <p class="text-muted">
+          Уникальное место для отдыха с живописным озером и удобными зонами для пикников и рыбалки.
+        </p>
+        <hr>
+      </div>
+    </section>
+    <section class="row align-items-center">
+      <div class="col-md-6">
+        <img src="../image/security.jpg" alt="Безопасность в ЖК" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Безопасность 24/7</h2>
+        <p class="text-muted">
+          ЖК "Valley 1C" оснащен современной системой безопасности и видеонаблюдением.
+        </p>
+        <hr>
+      </div>
+    </section>
+    <hr class="mt-5 mb-2">
+<p class="text-start fw-bold" style="font-size: 1.5rem" id="popular-plans-title">Самые популярные планировки:</p>
+<button class="btn btn-outline-dark mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#popular-plans" aria-expanded="false" aria-controls="popular-plans">
+  Показать популярные планировки
+</button>
+<div class="collapse" id="popular-plans">
+  <div class="card card-body">
+    <section class="container my-5" id="andromeda">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="../image/floor-plan-1.jpeg" alt="Планировка этажа" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Планировка этажа дома "Андромеда"</h2>
+          <p class="text-muted">
+            Представляем вашему вниманию продуманную планировку этажа, которая обеспечивает комфортное проживание. 
+            На каждом этаже расположены:
+          </p>
+          <ul class="list-unstyled text-muted">
+            <li>✔ Просторные квартиры различной площади (от 1 до 4 комнат);</li>
+            <li>✔ Удобные общие зоны, включая холлы и лестничные площадки;</li>
+            <li>✔ Современные лифты и аварийные выходы для безопасности;</li>
+            <li>✔ Дополнительные помещения для хранения вещей или велосипедов.</li>
+          </ul>
+          <p class="text-muted">
+            Каждая деталь планировки тщательно продумана, чтобы обеспечить максимальный комфорт и удобство для всех жителей.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-2 mb-2">
+    <section class="container my-5 mb-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-md-2">
+          <img src="../image/floor-plan-2.jpg" alt="Планировка этажа" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Планировка этажа дома "Зевс"</h2>
+          <p class="text-muted">
+            Представляем вашему вниманию продуманную планировку этажа, которая обеспечивает комфортное проживание. 
+            На каждом этаже расположены:
+          </p>
+          <ul class="list-unstyled text-muted">
+            <li>✔ Просторные квартиры различной площади (от 1 до 4 комнат);</li>
+            <li>✔ Удобные общие зоны, включая холлы и лестничные площадки;</li>
+            <li>✔ Современные лифты и аварийные выходы для безопасности;</li>
+            <li>✔ Дополнительные помещения для хранения вещей или велосипедов.</li>
+          </ul>
+          <p class="text-muted">
+            Каждая деталь планировки тщательно продумана, чтобы обеспечить максимальный комфорт и удобство для всех жителей.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-2 mb-2">
+    <section class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="../image/floor-plan-3.jpg" alt="Планировка этажа" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Планировка этажа дома "Зодиак"</h2>
+          <p class="text-muted">
+            Представляем вашему вниманию продуманную планировку этажа, которая обеспечивает комфортное проживание. 
+            На каждом этаже расположены:
+          </p>
+          <ul class="list-unstyled text-muted">
+            <li>✔ Просторные квартиры различной площади (от 1 до 4 комнат);</li>
+            <li>✔ Удобные общие зоны, включая холлы и лестничные площадки;</li>
+            <li>✔ Современные лифты и аварийные выходы для безопасности;</li>
+            <li>✔ Дополнительные помещения для хранения вещей или велосипедов.</li>
+          </ul>
+          <p class="text-muted">
+            Каждая деталь планировки тщательно продумана, чтобы обеспечить максимальный комфорт и удобство для всех жителей.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-2 mb-2">
+    </div>
+  </div>
+  </main>  
+  <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <svg id="Зоны_отдыха" data-name="Зоны отдыха" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 341">
+            <image id="Фон" width="512" height="341" href="../image/project-2.jpg"/>
+            <path id="Фигура_3" data-name="Фигура 3" class="cls-1" d="M157,73h37v37H170v-1h-2v-1h-4v-1h-1v-1h-1v-1h-1v-1h-1v-2h-1V99h-1V98h-1V73Z"/>
+            <rect id="Фигура_4" data-name="Фигура 4" class="cls-2" x="302" y="153" width="37" height="54"/>
+            <path id="Фигура_5" data-name="Фигура 5" class="cls-1" d="M194,254H157V229h1v-3h1v-2h1v-1h1v-1h1v-1h1v-1h1v-1h2v-1h29Z"/>
+            <path id="Фигура_6" data-name="Фигура 6" class="cls-1" d="M329,90V66H310V90h19Z"/>
+            <path id="Фигура_7" data-name="Фигура 7" class="cls-1" d="M310,295h19V271H310v24Z"/>
+            <path id="Фигура_8" data-name="Фигура 8" class="cls-1" d="M299,194V165H253v29h46Z"/>
+            <path id="Фигура_1" data-name="Фигура 1" class="cls-1" d="M195,205v-1h-2v-1h-1v-9h-1v-5h1v-9h1v-1h1v-1h2v-1h43v1h1v1h1v23h-1v2h-1v1H195Z"/>
+            <path id="Фигура_2" data-name="Фигура 2" class="cls-1" d="M237,150v-1h2v-1h1v-2h1V125h-1v-1h-1v-1a9.748,9.748,0,0,1-1,0,3.163,3.163,0,0,1,0-1H194v1h-1v1h-1v23h1v1h1v1h1v1h42Z"/>
+            <path id="Дом-8" class="cls-3" d="M292,205H269v35H372l1-31h-2v-7h2V158h-2v-7h2l-1-31H269v35h23V143h58v74H292V205Z"/>
+            <path id="Дом-7" class="cls-3" d="M351,94v1h-5V94h-5V87h-1V82h1V64h-1V59h1V53h5V52h5v1h21V52h4v1h4v7h1v4h-1V84h1v3h-1v7h-4v1h-4V94H351Z"/>
+            <path id="Дом-6" class="cls-3" d="M259,95V87h-1V84h1V64h-1V61h1V53h4V52h4v1h22V52h4v1h5v7h1v4h-1V83h1v4h-1v8H259Z"/>
+            <path id="Дом-5" class="cls-3" d="M147,104H124V40H228v64H205V62H147v42Z"/>
+            <path id="Дом-4" class="cls-3" d="M177,208H164v8H125V174h13V154H125V112h39v7h13v22h-1v1h-1v8h1v1h1v25h-1v1h-1v4h1v1h-1v3h1v1h1v22Z"/>
+            <path id="Дом-3" class="cls-3" d="M341,304v-7h-1v-3h1V274h-1v-4h1v-7h5v-1h4v1h21v-1h4v1h5v8h1v3h-1v20h1v3h-1v7h-4v1h-4v-1H355v1h-9v-1h-5Z"/>
+            <path id="Дом-2" class="cls-3" d="M259,304v-7h-1v-3h1V274h-1v-3h1v-8h4v-1h4v1h31v41H259Z"/>
+            <path id="Дом-1" class="cls-3" d="M124,288V224h23v41h58V224h23v64H124Z"/>
+            <path id="Парки" class="cls-10" d="M414,311h-1v-1h-1V80h1V79h1V78h98V311H414ZM247,341V329h1v-1H512v13H247Zm-18,0V315h-1v-1h-1v-1H103v1h-2v2h-1v25H229ZM81,341V314H80v-1H0v28H81ZM0,294H80s0.009-1.067,0-1a4.987,4.987,0,0,0,1,0V35H80V34H79V33s-79.082-.095-79,0S0,294,0,294ZM0,15H512V0H0V15ZM405,62H512V32H405V62Z"/>
+            <path id="Фигура_9" data-name="Фигура 9" class="cls-4" d="M457,366"/>
+          </svg>        
+          <div class="tooltip" id="tooltip"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<footer class="container-fluid bg-dark text-white text-center py-5 position-relative">
+  <div class="overlay"></div>
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col">
+        <h2 class="fw-bold mb-5">Контакты ЖК "Valley 1C"</h2>
+        <p class="float-start">
+          📍 Адрес: г. Серпухов, Химиков 19, кв 3 <br>
+          📞 Телефон: <a href="tel:+74951234567" class="text-light text-decoration-none">+7 (800) 555-35-55</a> <br>
+          ✉️ Email: <a href="mailto:info@zhaba-land.ru" class="text-light text-decoration-none">info@valley-1c.ru</a>
+        </p>
+        <div class="social-icons float-end">
+          <a href="https://github.com/razemsb" target="_blank" class="text-light mx-2 mt-1"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#" class="text-light mx-2 mt-1"><i class="fab fa-vk fa-2x"></i></a>
+          <a href="#" class="text-light mx-2 mt-1"><i class="fab fa-telegram fa-2x"></i></a>
+          <p class="text-white small mt-3">© 2025 ЖК "Valley 1C". Все права защищены.</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -295,6 +295,7 @@ footer .social-icons a:hover {
 .card, .card-body {
   border: none!important;
   box-shadow: none;
+  height: 100%;
 }
 .popular-plans .overlay {
     position: absolute;
