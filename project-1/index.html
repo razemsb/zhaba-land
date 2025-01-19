@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/assest.js" defer></script>
+    <link rel="preload" href="../image/school.jpg" as="image">
+    <link rel="preload" href="../image/kindergarten.jpg" as="image">
+    <link rel="preload" href="../image/forest.jpg" as="image">
+    <link rel="preload" href="../image/parking.jpg" as="image">
+    <link rel="preload" href="../image/beach.jpg" as="image">
+    <link rel="preload" href="../image/sport-zone.jpg" as="image">
+    <link rel="preload" href="../image/house.jpg" as="image">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="shortcut icon" href="image/house.svg" type="image/svg+xml">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <title>ЖК "Zhaba-Land"</title>
+</head>
+<body>
+<div id="mini-header" class="mini-header">
+  <div class="container d-flex justify-content-between align-items-center">
+    <a href="#home" class="text-white text-decoration-none fw-bold">ЖК "Zhaba-Land"</a>
+    <nav>
+      <a href="#about" class="text-white mx-2">О нас</a>
+      <a href="#popular-plans-title" class="text-white mx-2">Популярные планировки</a>
+      <a href="#contact" class="text-white mx-2">Контакты</a>
+      <a href="../index.html" class="text-white mx-2">Назад</a>
+    </nav>
+  </div>
+</div>
+<header class="container-fluid bg-dark text-white text-center py-5 position-relative" id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="display-4 fw-bold mb-4 text-uppercase">
+          Добро пожаловать в ЖК "Zhaba-Land"
+        </h1>
+        <p class="lead text-light mb-5">
+          Комфортная жизнь в окружении природы и современных удобств
+        </p>
+        <button type="button" class="d-flex btn btn-outline-light ms-auto me-auto mt-2 mb-5" data-bs-toggle="modal" data-bs-target="#mapModal">
+          Изучить ЖК "Zhaba-Land"
+       </button>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="container my-5" id="main">
+<section class="text-center mb-5 mt-4" id="about">
+  <h1 class="display-4 fw-bold">ЖК "Zhaba-Land"</h1>
+  <p class="lead text-muted">
+    Современный жилой комплекс для комфортной жизни в окружении природы и удобств.
+  </p>
+</section>
+<section class="row align-items-center mb-5">
+  <div class="col-md-6 order-md-2">
+    <img src="../image/house.jpg" alt="Дома" class="img-fluid rounded shadow">
+  </div>
+  <div class="col-md-6">
+    <h2 class="fw-bold">Комфортные дома</h2>
+    <p class="text-muted">
+      Комфортные и удобные дома, которые обеспечивают комфортную жизнь для владельцев.
+    </p>
+    <hr>
+  </div>
+</section>
+<section class="row align-items-center mb-5">
+  <div class="col-md-6">
+    <img src="../image/school.jpg" alt="Школа рядом с ЖК" class="img-fluid rounded shadow">
+  </div>
+  <div class="col-md-6">
+    <h2 class="fw-bold">Близость к школе</h2>
+    <p class="text-muted">
+      ЖК "Zhaba-Land" находится всего в нескольких минутах ходьбы от современной школы с лучшими условиями для обучения детей.
+    </p>
+    <hr>
+  </div>
+</section>
+<section class="row align-items-center mb-5">
+  <div class="col-md-6 order-md-2">
+    <img src="../image/kindergarten.jpg" alt="Детский сад рядом с ЖК" class="img-fluid rounded shadow">
+  </div>
+  <div class="col-md-6 order-md-1">
+    <h2 class="fw-bold">Детский сад для самых маленьких</h2>
+    <p class="text-muted">
+      Удобный и безопасный детский сад с квалифицированными педагогами, где каждый ребенок будет чувствовать себя комфортно.
+    </p>
+    <hr>
+  </div>
+</section>
+<section class="row align-items-center mb-5">
+  <div class="col-md-6">
+    <img src="../image/forest.jpg" alt="Лес рядом с ЖК" class="img-fluid rounded shadow">
+  </div>
+  <div class="col-md-6">
+    <h2 class="fw-bold">Живописный лес</h2>
+    <p class="text-muted">
+      ЖК "Zhaba-Land" окружен зелеными насаждениями, где вы можете наслаждаться прогулками и отдыхом на природе.
+    </p>
+    <hr>
+  </div>
+</section>
+<section class="row align-items-center mb-5">
+  <div class="col-md-6 order-md-2">
+    <img src="../image/beach.jpg" alt="Пляж рядом с ЖК" class="img-fluid rounded shadow">
+  </div>
+  <div class="col-md-6">
+    <h2 class="fw-bold">Живописный пляж для отдыха</h2>
+    <p class="text-muted">
+      Удобный и безопасный пляж, где вы можете наслаждаться прогулками и отдыхом на природе.
+    </p>
+    <hr>
+  </div>
+</section>
+<section class="row align-items-center mb-5">
+  <div class="col-md-6">
+    <img src="../image/sport-zone.jpg" alt="Спортивная зона рядом с ЖК" class="img-fluid rounded shadow">
+  </div>
+  <div class="col-md-6 order-md-1">
+    <h2 class="fw-bold">Спортивная зона</h2>
+    <p class="text-muted">
+      Удобная и безопасная спортивная зона, для удобства владельцев спортивных занятий.
+    </p>
+    <hr>
+  </div>
+</section>
+<section class="row align-items-center">
+  <div class="col-md-6 order-md-2">
+    <img src="../image/parking.jpg" alt="Парковка рядом с ЖК" class="img-fluid rounded shadow">
+  </div>
+  <div class="col-md-6 order-md-1">
+    <h2 class="fw-bold">Удобная парковка</h2>
+    <p class="text-muted">
+      Просторная и безопасная парковка, расположенная рядом с вашими домами, для удобства владельцев автомобилей.
+    </p>
+    <hr>
+  </div>
+</section>
+<hr class="mt-5 mb-2">
+<p class="text-start fw-bold" style="font-size: 1.5rem" id="popular-plans-title">Самые популярные планировки:</p>
+<button class="btn btn-outline-dark mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#popular-plans" aria-expanded="false" aria-controls="popular-plans">
+  Показать популярные планировки
+</button>
+<div class="collapse" id="popular-plans">
+  <div class="card card-body">
+    <section class="container my-5" id="andromeda">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="../image/floor-plan-1.jpeg" alt="Планировка этажа" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Планировка этажа дома "Андромеда"</h2>
+          <p class="text-muted">
+            Представляем вашему вниманию продуманную планировку этажа, которая обеспечивает комфортное проживание. 
+            На каждом этаже расположены:
+          </p>
+          <ul class="list-unstyled text-muted">
+            <li>✔ Просторные квартиры различной площади (от 1 до 4 комнат);</li>
+            <li>✔ Удобные общие зоны, включая холлы и лестничные площадки;</li>
+            <li>✔ Современные лифты и аварийные выходы для безопасности;</li>
+            <li>✔ Дополнительные помещения для хранения вещей или велосипедов.</li>
+          </ul>
+          <p class="text-muted">
+            Каждая деталь планировки тщательно продумана, чтобы обеспечить максимальный комфорт и удобство для всех жителей.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-2 mb-2">
+    <section class="container my-5 mb-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-md-2">
+          <img src="../image/floor-plan-2.jpg" alt="Планировка этажа" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Планировка этажа дома "Зевс"</h2>
+          <p class="text-muted">
+            Представляем вашему вниманию продуманную планировку этажа, которая обеспечивает комфортное проживание. 
+            На каждом этаже расположены:
+          </p>
+          <ul class="list-unstyled text-muted">
+            <li>✔ Просторные квартиры различной площади (от 1 до 4 комнат);</li>
+            <li>✔ Удобные общие зоны, включая холлы и лестничные площадки;</li>
+            <li>✔ Современные лифты и аварийные выходы для безопасности;</li>
+            <li>✔ Дополнительные помещения для хранения вещей или велосипедов.</li>
+          </ul>
+          <p class="text-muted">
+            Каждая деталь планировки тщательно продумана, чтобы обеспечить максимальный комфорт и удобство для всех жителей.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-2 mb-2">
+    <section class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="../image/floor-plan-3.jpg" alt="Планировка этажа" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Планировка этажа дома "Зодиак"</h2>
+          <p class="text-muted">
+            Представляем вашему вниманию продуманную планировку этажа, которая обеспечивает комфортное проживание. 
+            На каждом этаже расположены:
+          </p>
+          <ul class="list-unstyled text-muted">
+            <li>✔ Просторные квартиры различной площади (от 1 до 4 комнат);</li>
+            <li>✔ Удобные общие зоны, включая холлы и лестничные площадки;</li>
+            <li>✔ Современные лифты и аварийные выходы для безопасности;</li>
+            <li>✔ Дополнительные помещения для хранения вещей или велосипедов.</li>
+          </ul>
+          <p class="text-muted">
+            Каждая деталь планировки тщательно продумана, чтобы обеспечить максимальный комфорт и удобство для всех жителей.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-2 mb-2">
+    </div>
+  </div>
+</main>
+<button id="popular-plans" type="button" class="d-flex btn btn-outline-dark ms-auto me-auto mt-2 mb-5" data-bs-toggle="modal" data-bs-target="#mapModal">
+  Изучить ЖК "Zhaba-Land"
+</button>
+<button id="project-2" type="button" class="d-flex btn btn-outline-dark ms-auto me-auto mb-5" data-bs-toggle="modal" data-bs-target="#mapModal2">
+  Также наш 2 проект ЖК Zhaba-Land
+</button>
+<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <svg id="interactive-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 857">
+          <image id="Фон" width="1200" height="857" href="../image/234670.jpg"/>
+          <path id="Дом Андромеда" data-name="Фигура 1" class="cls-3" d="M422,712L322,623l-11-96,133-70,14-7,21,12,5,3,45,29,3,72-39,15-13-7-23.132,13.144C456.415,587.069,462.01,651,462,651l-5,2,2,40Z"/>
+          <path id="Фигура_2" data-name="Фигура 2" class="cls-3" d="M500,783l112-79,6,3,36-23v-5l13-11,1-96-22-16,3-4-29-17-4,1-18-14-26,28,4,30-23,16-95,57,5,98Z" href="#pins"/>
+          <path id="Фигура_3" data-name="Фигура 3" class="cls-3" d="M331,443l-170-1-16-86,23-50,14,4,11-28,54,2,9-23,28,2,2-4h18l3,3h40l9,84-6,20-18-1-2,4,7,48Z"/>
+          <path id="Фигура_4" data-name="Фигура 4" class="cls-3" d="M370,291H351l-3-30H306l-3-3H288l-5,3H256l-9,21H224l-9-70,14-36,12,3,6-18h50l6-19,25,1,2-4h14l2,3h35l9,77-4,13-14,1v16l3,23Z"/>
+          <path id="Фигура_5" data-name="Фигура 5" class="cls-3" d="M398,175l-13,1-3-34H346l-2-4H329l-1,3H302l-5,19-27,1-6-58,12-27s8.948,4.013,9,3,5-11,5-11l44-1,5-15,23-1,2-3,13-1,2,3h29l6,70-4,11h-8l-2,12,3,17Z"/>
+          <path id="Фигура_6" data-name="Фигура 6" class="cls-3" d="M552,468l-84-62-4-87,137-66,100,52-3,85-30,15-70-41-8,8,2,75Z"/>
+          <path id="Фигура_7" data-name="Фигура 7" class="cls-3" d="M768,347l-86-52,2-80,111-52,97,43-6,77-24,14-57-26-2,1-4,58Z"/>
+          <path id="Фигура_8" data-name="Фигура 8" class="cls-1" d="M1038,407L886,333l3-34,56-32,62,26,11-5,79,34-2,46Z"/>
+          <!--<path id="Фигура_9" data-name="Фигура 9" class="cls-8" d="M778,588c-0.142,2.817,243-166,243-166L852,331,625,459S778.142,585.183,778,588Z"/>-->
+          <path id="parking-1" class="cls-8" href="#andromeda" d="M804,574L674,489l8-3,5-9,14-9,13-6,18-1,13,5,82,50,8,1,8-1,4-5-7-12-15,3-17-23,14-4-6-12-11-5-10,3s-14.7,6-16,6-19,0-19,0l-16-7-8-8,1-6,117-70,19,9-5,3,2,5,29,5,4-2-3-6,12-2,5,6,12,1,11,3,11,7,6-4,3,3,6-4,27,12-4,3s-10.8-4.518-11-5-3,2-3,2l6,5-3,1,28,14-24,11L877,518ZM671,471l10,6L861,367l-8-6L670,470Z"/>
+          <path id="Фигура_10" data-name="Фигура 10" class="cls-9" d="M220,631H162l-2,4-70,2-8-28,41-98,112,1,11,42Z"/>
+          <path id="Фигура_11" data-name="Фигура 11" class="cls-10" d="M431,394l-38-25,30-141,113-1,9,10,37-17,42,27,57-26v50l-21,11-58-29L463,316l3,62Z"/>
+          <path id="Фигура_12" data-name="Фигура 12" class="cls-8" d="M929,860l223-203,20,8,20-18,8,15-10,23,10,8V855Z"/>
+          <path id="Фигура_13" data-name="Фигура 13" class="cls-8" d="M980,135l2-10,96-56s-22.48-4.337-20-5,7-6,7-6l133,15V174Z"/>
+          <path id="Фигура_14" data-name="Фигура 14" class="cls-9" d="M51,742l-8-30,47-24,52,29,42-24L293,811l7,47H247l-42-1-60-69-40,23Z"/>
+          <path id="Фигура_15" data-name="Фигура 15" class="cls-11" d="M1115,275l-6-6-8-1-5-4-3,1-16-15,1-14,7-6,18-3,2-7,6-6h3l1,5,2,2v8l12,11,1,5,6,3-1,9-4,7-2,10Z"/>
+          <path id="Фигура_16" data-name="Фигура 16" class="cls-12" d="M189,202H119l-1-3H89l-3-16H51l-3-17,62-90,18-6,116,2,3,13Z"/>
+          <path id="Фигура_17" data-name="Фигура 17" class="cls-12" d="M892,229l20,4,17-35-79-14Z"/>
+          <path id="school" class="cls-9" d="M434,217l124,1V203l30-1v8l46,22,28-12V203l-51-27-1-7H577l-26-15-24,9,12,4-102,2-5,16Z"/>
+          <path id="forest" class="cls-10" d="M0,601L133,434s-8.984-6.34-11-6,25-62,25-62l-3-10,22-53,13,5,7-23L273,78l-14-2L193,206,58,207,40,197l-21,1L94,81,60,62-1,68ZM1199,204V175L977,137l5-13,93-53-17-5,6-9L953,43,867,27l-90-4H723l-68,1-81-1-4,1L416,23l-72,1-3,3L237,35l-1,6L338,54l1-6,22,2,2-4h15l3,3h27l6,20Z"/>
+        </svg>
+        <div class="tooltip" id="tooltip"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="mapModal2" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <svg id="Зоны_отдыха" data-name="Зоны отдыха" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 341">
+          <image id="Фон" width="512" height="341" href="../image/project-2.jpg"/>
+          <path id="Фигура_3" data-name="Фигура 3" class="cls-1" d="M157,73h37v37H170v-1h-2v-1h-4v-1h-1v-1h-1v-1h-1v-1h-1v-2h-1V99h-1V98h-1V73Z"/>
+          <rect id="Фигура_4" data-name="Фигура 4" class="cls-2" x="302" y="153" width="37" height="54"/>
+          <path id="Фигура_5" data-name="Фигура 5" class="cls-1" d="M194,254H157V229h1v-3h1v-2h1v-1h1v-1h1v-1h1v-1h1v-1h2v-1h29Z"/>
+          <path id="Фигура_6" data-name="Фигура 6" class="cls-1" d="M329,90V66H310V90h19Z"/>
+          <path id="Фигура_7" data-name="Фигура 7" class="cls-1" d="M310,295h19V271H310v24Z"/>
+          <path id="Фигура_8" data-name="Фигура 8" class="cls-1" d="M299,194V165H253v29h46Z"/>
+          <path id="Фигура_1" data-name="Фигура 1" class="cls-1" d="M195,205v-1h-2v-1h-1v-9h-1v-5h1v-9h1v-1h1v-1h2v-1h43v1h1v1h1v23h-1v2h-1v1H195Z"/>
+          <path id="Фигура_2" data-name="Фигура 2" class="cls-1" d="M237,150v-1h2v-1h1v-2h1V125h-1v-1h-1v-1a9.748,9.748,0,0,1-1,0,3.163,3.163,0,0,1,0-1H194v1h-1v1h-1v23h1v1h1v1h1v1h42Z"/>
+          <path id="Дом-8" class="cls-3" d="M292,205H269v35H372l1-31h-2v-7h2V158h-2v-7h2l-1-31H269v35h23V143h58v74H292V205Z"/>
+          <path id="Дом-7" class="cls-3" d="M351,94v1h-5V94h-5V87h-1V82h1V64h-1V59h1V53h5V52h5v1h21V52h4v1h4v7h1v4h-1V84h1v3h-1v7h-4v1h-4V94H351Z"/>
+          <path id="Дом-6" class="cls-3" d="M259,95V87h-1V84h1V64h-1V61h1V53h4V52h4v1h22V52h4v1h5v7h1v4h-1V83h1v4h-1v8H259Z"/>
+          <path id="Дом-5" class="cls-3" d="M147,104H124V40H228v64H205V62H147v42Z"/>
+          <path id="Дом-4" class="cls-3" d="M177,208H164v8H125V174h13V154H125V112h39v7h13v22h-1v1h-1v8h1v1h1v25h-1v1h-1v4h1v1h-1v3h1v1h1v22Z"/>
+          <path id="Дом-3" class="cls-3" d="M341,304v-7h-1v-3h1V274h-1v-4h1v-7h5v-1h4v1h21v-1h4v1h5v8h1v3h-1v20h1v3h-1v7h-4v1h-4v-1H355v1h-9v-1h-5Z"/>
+          <path id="Дом-2" class="cls-3" d="M259,304v-7h-1v-3h1V274h-1v-3h1v-8h4v-1h4v1h31v41H259Z"/>
+          <path id="Дом-1" class="cls-3" d="M124,288V224h23v41h58V224h23v64H124Z"/>
+          <path id="Парки" class="cls-10" d="M414,311h-1v-1h-1V80h1V79h1V78h98V311H414ZM247,341V329h1v-1H512v13H247Zm-18,0V315h-1v-1h-1v-1H103v1h-2v2h-1v25H229ZM81,341V314H80v-1H0v28H81ZM0,294H80s0.009-1.067,0-1a4.987,4.987,0,0,0,1,0V35H80V34H79V33s-79.082-.095-79,0S0,294,0,294ZM0,15H512V0H0V15ZM405,62H512V32H405V62Z"/>
+          <path id="Фигура_9" data-name="Фигура 9" class="cls-4" d="M457,366"/>
+        </svg>        
+        <div class="tooltip" id="tooltip"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid bg-dark text-white text-center py-5 position-relative">
+  <div class="overlay"></div>
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col">
+        <h2 class="fw-bold mb-5">Контакты ЖК "Zhaba-Land"</h2>
+        <p class="float-start">
+          📍 Адрес: г. Серпухов, Химиков 19, кв 3 <br>
+          📞 Телефон: <a href="tel:+74951234567" class="text-light text-decoration-none">+7 (800) 555-35-55</a> <br>
+          ✉️ Email: <a href="mailto:info@zhaba-land.ru" class="text-light text-decoration-none">info@zhaba-land.ru</a>
+        </p>
+        <div class="social-icons float-end">
+          <a href="https://github.com/razemsb" target="_blank" class="text-light mx-2 mt-1"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#" class="text-light mx-2 mt-1"><i class="fab fa-vk fa-2x"></i></a>
+          <a href="#" class="text-light mx-2 mt-1"><i class="fab fa-telegram fa-2x"></i></a>
+          <p class="text-white small mt-3">© 2025 ЖК "Zhaba-Land". Все права защищены.</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="loading-overlay">
+  <div class="spinner"></div>
+</div>
+</body>
+</html>
