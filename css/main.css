@@ -387,7 +387,7 @@ section.align-items-center hr {
 section.row.align-items-center h2, section.row.align-items-center p, section.row.align-items-center hr, section.row.align-items-center img {
   animation: fadeInUp 1s ease-out;
 }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .mini-header {
     padding: 10px 0;
   }
