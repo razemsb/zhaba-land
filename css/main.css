@@ -138,15 +138,15 @@ svg {
     border-radius: 0;
 }
 header {
-    background-image: url('../image/karousel-1.webp');
+    background-color: #333;
     background-size: cover;
     animation: changeBackground 12s ease-in-out infinite;
     background-size: cover;
     background-position: center;
     color: #fff;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
-    min-height: 400px;
     position: relative;
+    min-height: 50vh;
 }
 @keyframes changeBackground {
     0% {
@@ -387,18 +387,18 @@ section.align-items-center hr {
 section.row.align-items-center h2, section.row.align-items-center p, section.row.align-items-center hr, section.row.align-items-center img {
   animation: fadeInUp 1s ease-out;
 }
-@media (max-width: 768px) {
-  header {
-    height: 100vw;
+@media (max-width: 320px) {
+  .mini-header {
+    padding: 10px 0;
+  }
+  .mini-header a {
+    font-size: 1rem;
+  }
+  .mini-header a#logo {
+    display: none;
   }
   .container-from-image {
     width: 100%;
-  }
-  header {
-    height: 100vw;
-  }
-  header .overlay {
-    height: 100vw;
   }
   section.row.align-items-center {
     flex-direction: column;
@@ -420,10 +420,16 @@ section.row.align-items-center h2, section.row.align-items-center p, section.row
     margin-right: auto;
   }
   footer h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 svg#Дома {
   border-radius: 13px;
   padding: 10px;
+}
+#navigate-buttons button.btn.btn-outline-dark {
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  border-radius: 30px;
+  animation: fadeIn 1.5s ease-out;
 }
